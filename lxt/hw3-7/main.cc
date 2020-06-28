@@ -41,7 +41,7 @@ int main(){
 		printf("%.6lf %.6lf %.6lf\n",u,v,e);
 	}
 	u = 0.0;v=0.0;
-	for (int i=0;i<=5;i++){
+	for (int i=1;i<=5;i++){
 		double tmpu,tmpv;
 		getdelta(tmpu,tmpv);
 		u = u+tmpu;
